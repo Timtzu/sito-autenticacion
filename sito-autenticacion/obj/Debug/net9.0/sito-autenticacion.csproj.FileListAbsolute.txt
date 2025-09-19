@@ -1,0 +1,9 @@
+C:\Users\erick\source\repos\sito-autenticacion\sito-autenticacion\obj\Debug\net9.0\sito-autenticacion.csproj.AssemblyReference.cache
+C:\Users\erick\source\repos\sito-autenticacion\sito-autenticacion\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\erick\source\repos\sito-autenticacion\sito-autenticacion\obj\Debug\net9.0\sito-autenticacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\source\repos\sito-autenticacion\sito-autenticacion\obj\Debug\net9.0\sito-autenticacion.AssemblyInfoInputs.cache
+C:\Users\erick\source\repos\sito-autenticacion\sito-autenticacion\obj\Debug\net9.0\sito-autenticacion.AssemblyInfo.cs
+C:\Users\erick\source\repos\sito-autenticacion\sito-autenticacion\obj\Debug\net9.0\sito-autenticacion.csproj.CoreCompileInputs.cache
+C:\Users\erick\source\repos\sito-autenticacion\sito-autenticacion\obj\Debug\net9.0\sito-autenticacion.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\erick\source\repos\sito-autenticacion\sito-autenticacion\obj\Debug\net9.0\sito-autenticacion.RazorAssemblyInfo.cache
+C:\Users\erick\source\repos\sito-autenticacion\sito-autenticacion\obj\Debug\net9.0\sito-autenticacion.RazorAssemblyInfo.cs
