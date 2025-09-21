@@ -1,11 +1,24 @@
-﻿namespace sito_autenticacion.Model
+﻿using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
+
+namespace sito_autenticacion.Model
 {
     public class Usuario
     {
-        public string? Id { get; set; }
+        [AllowNull]
+        public int Id { get; set; }
+
+        [Required]
+        [MaxLength(100)]
         public string? Username { get; set; }
+
+        [Required]
+        public string? PasswordHash { get; set; }
+
+        [MaxLength(50)]
         public string? Role { get; set; }
-        public string? HashedPassword { get; set; }
-       
+
+
+
     }
 }

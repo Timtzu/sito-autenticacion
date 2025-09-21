@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|c:\\users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\model\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|solutionrelative:sito-autenticacion\\model\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|c:\\users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\controller\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|solutionrelative:sito-autenticacion\\controller\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|c:\\users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\sito-autenticacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|solutionrelative:sito-autenticacion\\sito-autenticacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|c:\\users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\model\\registrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|solutionrelative:sito-autenticacion\\model\\registrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|c:\\users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|solutionrelative:sito-autenticacion\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|c:\\users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\sito-autenticacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|solutionrelative:sito-autenticacion\\sito-autenticacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|c:\\users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|solutionrelative:sito-autenticacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|c:\\users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|solutionrelative:sito-autenticacion\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|c:\\users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\model\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10D02B4C-4157-474B-8ECC-2EAAEE6B8515}|sito-autenticacion\\sito-autenticacion.csproj|solutionrelative:sito-autenticacion\\model\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,102 +22,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Profesor.cs",
-              "DocumentMoniker": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\Model\\Profesor.cs",
-              "RelativeDocumentMoniker": "sito-autenticacion\\Model\\Profesor.cs",
-              "ToolTip": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\Model\\Profesor.cs",
-              "RelativeToolTip": "sito-autenticacion\\Model\\Profesor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T01:21:19.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\Program.cs",
-              "RelativeDocumentMoniker": "sito-autenticacion\\Program.cs",
-              "ToolTip": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\Program.cs",
-              "RelativeToolTip": "sito-autenticacion\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:52:39.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegistroDto.cs",
-              "DocumentMoniker": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\Model\\RegistroDto.cs",
-              "RelativeDocumentMoniker": "sito-autenticacion\\Model\\RegistroDto.cs",
-              "ToolTip": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\Model\\RegistroDto.cs",
-              "RelativeToolTip": "sito-autenticacion\\Model\\RegistroDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:52:57.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "sito-autenticacion\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "sito-autenticacion\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:48:17.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "sito-autenticacion",
-              "DocumentMoniker": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\sito-autenticacion.csproj",
-              "RelativeDocumentMoniker": "sito-autenticacion\\sito-autenticacion.csproj",
-              "ToolTip": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\sito-autenticacion.csproj",
-              "RelativeToolTip": "sito-autenticacion\\sito-autenticacion.csproj",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-19T00:47:34.563Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\Controller\\AuthController.cs",
-              "RelativeDocumentMoniker": "sito-autenticacion\\Controller\\AuthController.cs",
-              "ToolTip": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\Controller\\AuthController.cs",
-              "RelativeToolTip": "sito-autenticacion\\Controller\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:47:15.157Z",
+              "DocumentIndex": 0,
+              "Title": "sito-autenticacion.csproj",
+              "DocumentMoniker": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\sito-autenticacion.csproj",
+              "RelativeDocumentMoniker": "sito-autenticacion\\sito-autenticacion.csproj",
+              "ToolTip": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\sito-autenticacion.csproj",
+              "RelativeToolTip": "sito-autenticacion\\sito-autenticacion.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-19T00:47:34.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AlumnoController.cs",
-              "DocumentMoniker": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\Controller\\AlumnoController.cs",
-              "RelativeDocumentMoniker": "sito-autenticacion\\Controller\\AlumnoController.cs",
-              "ToolTip": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\Controller\\AlumnoController.cs",
-              "RelativeToolTip": "sito-autenticacion\\Controller\\AlumnoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Title": "RegistroDto.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\Model\\RegistroDto.cs",
+              "RelativeDocumentMoniker": "sito-autenticacion\\Model\\RegistroDto.cs",
+              "ToolTip": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\Model\\RegistroDto.cs",
+              "RelativeToolTip": "sito-autenticacion\\Model\\RegistroDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:44:20.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T00:52:57.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\Model\\LoginDto.cs",
+              "RelativeDocumentMoniker": "sito-autenticacion\\Model\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\erick\\source\\repos\\sito-autenticacion\\sito-autenticacion\\Model\\LoginDto.cs",
+              "RelativeToolTip": "sito-autenticacion\\Model\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T22:54:35.71Z"
             }
           ]
         }

@@ -14,6 +14,7 @@ namespace sito_autenticacion.Controller
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize(Roles = "servicios")]
     public class AuthController : ControllerBase
     {
         private readonly AppDbContext _context;
@@ -36,7 +37,7 @@ namespace sito_autenticacion.Controller
             var usuario = new Usuario
             {
                 Username = dto.Username,
-                HashedPassword = _passwordHasher.HashPassword(dto.Password),
+                PasswordHash = _passwordHasher.HashPassword(dto.Password),
                 Role = dto.Role // Set role during registration
             };
 
@@ -47,10 +48,11 @@ namespace sito_autenticacion.Controller
         }
 
         [HttpPost("login")]
+        [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] LoginDto dto)
         {
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == dto.Username);
-            if (user == null || !_passwordHasher.VerifyPassword(dto.Password, user.HashedPassword))
+            if (user == null || !_passwordHasher.VerifyPassword(dto.Password, user.PasswordHash))
                 return Unauthorized("Usuario Invalida o contraseña");
             Console.WriteLine(user.Role);
             var token = GenerateJwtToken(user);
@@ -67,8 +69,39 @@ namespace sito_autenticacion.Controller
             return Ok(new { token });
         }
 
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id, [FromBody] Usuario updatedUsuario)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest($"Modelo no válido: {ModelState}");
+            }
+
+            var existingUsuario = await _context.Users.FindAsync(id);
+            if (existingUsuario == null)
+            {
+                return NotFound($"No se encontró el producto con ID {id}");
+            }
+
+            // Actualizar los campos del producto existente
+            existingUsuario.Username = updatedUsuario.Username;
+            existingUsuario.PasswordHash = _passwordHasher.HashPassword(updatedUsuario.PasswordHash);
+            existingUsuario.Role = updatedUsuario.Role;
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Error al actualizar el producto: {ex.Message}");
+            }
+
+            return Ok(existingUsuario);
+        }
+
         private string GenerateJwtToken(Usuario user)
         {
+            Console.WriteLine("Role: " + user.Role);
             var jwtSettings = _configuration.GetSection("Jwt");
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["Key"]));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
@@ -164,6 +197,8 @@ namespace sito_autenticacion.Controller
 
             return NoContent();
         }
+        
+
 
     }
 }
